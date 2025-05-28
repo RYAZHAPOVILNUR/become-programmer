@@ -8,7 +8,7 @@ body#wholeDocument {
     font-family: Helvetica, sans-serif; 
     font-size: 12px;
 font-family: "Iowan Old Style", sans-serif; 
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
     line-height: 1.32;
     background-color: rgb(247,241,231);
@@ -311,15 +311,15 @@ tr.note-row td.note {
     padding-right: 3px; */ 
     border: none;
 color: rgb(24,24,24);
-    font-style: italic;
-    font-style: italic;
+    font-size: 12px;
+    font-size: 12px;
     
 }
 tr.note-row td.note-bg {
 
 }
 table.whole-row, table.whole-note, table#column-header, div.temp-wrapper {
-width: 822px;
+width: 760px;
 
 }
 /******************
@@ -332,22 +332,13 @@ div#centered table.span-columns {
     max-width: 100%;
 }
 /* Column widths + backgrounds */
-tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1), tr.note-row > td:nth-of-type(1) { 
-    width: 20px; 
-    max-width: 20px; 
-}
-tr#header td:nth-of-type(2), tr.outline-row > td:nth-of-type(2), tr.note-row > td:nth-of-type(2) { 
-    width: 27px; 
-    max-width: 27px; 
-    
-}
 table.outline-column { 
-    width: 775px; 
-    max-width: 775px; 
+    width: 760px; 
+    max-width: 760px; 
 }
-tr#header td:nth-of-type(3), tr.outline-row > td:nth-of-type(3) { 
-    width: 775px; 
-    max-width: 775px; 
+tr#header td:nth-of-type(1), tr.outline-row > td:nth-of-type(1) { 
+    width: 760px; 
+    max-width: 760px; 
     
 }
 
@@ -355,10 +346,7 @@ tr#header td:nth-of-type(3), tr.outline-row > td:nth-of-type(3) {
 tr.outline-row > td:nth-of-type(1), tr.note-row > td:nth-of-type(1){ 
     
 }
-tr.outline-row > td:nth-of-type(2), tr.note-row > td:nth-of-type(2){ 
-    
-}
-tr.outline-row > td:nth-of-type(3) { 
+tr.outline-row > td:nth-of-type(1) { 
     
 }
 
